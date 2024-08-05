@@ -15,10 +15,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <NavbarUser />
         </header>
         <main className="flex flex-col flex-1 ">{children}</main>
-        <footer className="border-t w-full flex  items-center justify-center flex-auto h-24 max-h-24">
-          <p className="font-bold">Copyright © 2024</p>
-        </footer>
       </div>
+      <footer className="border-t w-full flex  items-center justify-center flex-auto h-24 max-h-24">
+        <p className="font-bold">Copyright © 2024</p>
+      </footer>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
